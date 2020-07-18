@@ -1,3 +1,4 @@
+![Go](https://github.com/lneoe/carpenter/workflows/Go/badge.svg)
 # carpenter
 carpenter is a user management tool for [trojan](https://github.com/trojan-gfw/trojan)
 
