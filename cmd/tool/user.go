@@ -30,7 +30,7 @@ func (tool UserTool) List() error {
 	}
 
 	// header: id	username	download	upload	quota
-	format := "%[1]d\t%[2]s\t%.2[3]fGB\t%.2[4]fGB\t%.2[5]fGB\n"
+	format := "%[1]d\t%[2]s\t%.3[3]fGB\t%.3[4]fGB\t%.3[5]fGB\n"
 
 	bytesToGB := func(in int64 /* bytes */) float64 {
 		return float64(in) / 1024 / 1024 / 1024
